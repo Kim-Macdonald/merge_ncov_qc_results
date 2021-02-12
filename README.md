@@ -1,13 +1,13 @@
 # merge_ncov_qc_results
 Merges (left Join) the result fields from artic &amp; ncov-tools qc summaries, pangolin, and ncov-watch into 1 csv file. 
 
-    *_summary_qc.tsv (ncov-tools qc summary)
+   *_summary_qc.tsv (ncov-tools qc summary)
 
-    *_ncov_watch_summary.tsv (VoC mutations summary) (in qc_reports directory, not the ncov_watch directory)
+   *_ncov_watch_summary.tsv (VoC mutations summary) (in qc_reports directory, not the ncov_watch directory)
 
-    *_lineage_report.csv (pangolin lineage report)
+   *_lineage_report.csv (pangolin lineage report)
 
-    *.qc.csv (artic qc summary)
+   *.qc.csv (artic qc summary)
 
 
 <b>To run:</b>
@@ -16,8 +16,8 @@ Merges (left Join) the result fields from artic &amp; ncov-tools qc summaries, p
 
 cd to directory with result files 
 
-(for BCCDC: cd projects/covid-19_production/analysis_by_run/[MiSeqRunID] )
+      (for BCCDC: cd projects/covid-19_production/analysis_by_run/[MiSeqRunID] )
 
-conda activate pandas
+      conda activate pandas
 
-python3 path/to/script/mergeQCresults.py
+      python3 path/to/script/mergeQCresults.py
