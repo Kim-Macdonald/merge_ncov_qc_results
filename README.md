@@ -27,7 +27,7 @@ cd to directory with result files
 
     conda activate pandas
 
-    cd projects/covid-19_production/analysis_by_run/
+    (For BC:) cd projects/covid-19_production/analysis_by_run/
 
     for dir in /projects/covid-19_production/analysis_by_run/*/; do cd $dir; python3 /path/to/script/mergeQCresults.py; cd ..; done
 
