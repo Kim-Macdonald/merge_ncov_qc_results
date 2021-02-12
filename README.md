@@ -21,3 +21,13 @@ cd to directory with result files
       conda activate pandas
 
       python3 path/to/script/mergeQCresults.py
+
+
+<b>To run/loop through all MiSeqRunID directories:</b>
+
+    conda activate pandas
+
+    cd projects/covid-19_production/analysis_by_run/
+
+    for dir in /projects/covid-19_production/analysis_by_run/*/; do cd $dir; python3 /home/covid19.analysis/training/kim/scripts/mergeQCresults.py; cd ..; done
+
