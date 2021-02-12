@@ -38,10 +38,11 @@ for dir_path, dir_names, file_names in os.walk(cwdPath):
     
 
 #VARIANT SUMMARY FILE: (want only ObsMutation, TotalMutations, ProportionMutations from this)
+#use more specific file path b/c are similarly named files in the ncov_watch subdirectory as well, which will be detected 1st and cause an error that the file isn't found. 
 #sort first to match highest number first for each sample
 #remove duplicate lines (keep the first occurrence b/c it has the highest mutations)
 
-for dir_path, dir_names, file_names in os.walk(cwdPath):
+for dir_path, dir_names, file_names in os.walk(os.path.join(cwdPath, file2Path)):
     for f in file_names:
         if fnmatch.fnmatch(f, '*_ncov_watch_summary.tsv'):
             #print(f)  # worked 
