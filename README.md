@@ -3,6 +3,7 @@ Merges the result fields from artic &amp; ncov-tools qc summaries, pangolin, and
 
 
 <b>To run:</b>
+
 1st set up environment with pandas (done on sabin already)
 
 cd to directory with result files 
