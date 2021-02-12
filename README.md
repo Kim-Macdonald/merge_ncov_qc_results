@@ -29,5 +29,5 @@ cd to directory with result files
 
     cd projects/covid-19_production/analysis_by_run/
 
-    for dir in /projects/covid-19_production/analysis_by_run/*/; do cd $dir; python3 /home/covid19.analysis/training/kim/scripts/mergeQCresults.py; cd ..; done
+    for dir in /projects/covid-19_production/analysis_by_run/*/; do cd $dir; python3 /path/to/script/mergeQCresults.py; cd ..; done
 
