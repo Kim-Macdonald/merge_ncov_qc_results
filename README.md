@@ -8,7 +8,7 @@ Merges the result fields from artic &amp; ncov-tools qc summaries, pangolin, and
 
 cd to directory with result files 
 
-(for BCCDC: cd projects/covid-19_production/analysis_by_run/<MiSeqRunID>)
+(for BCCDC: cd projects/covid-19_production/analysis_by_run/(i)MiSeqRunID(/i) )
 
 conda activate pandas
 
