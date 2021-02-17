@@ -141,7 +141,7 @@ df_ncov_variant_lineage_artic_merge3 = pd.concat(df_ncov_variant_lineage_artic_m
 
 #save final2 file as csv (easier to open in Excel than tsv):
 #(this has only the columns I want to link my dashboard to, for various people's purposes)
-df_ncov_variant_lineage_artic_merge3.to_csv(MiSeqRunID + '_' + 'ncov_variantsum_lineage_artic_merge_leftJoin_ORDERED_FINAL.csv')
+df_ncov_variant_lineage_artic_merge3.to_csv(MiSeqRunID + '_' + 'QC_lineage_VoC_OrderedFinal.csv')
 
 
 
