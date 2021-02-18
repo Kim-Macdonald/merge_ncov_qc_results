@@ -110,8 +110,8 @@ MiSeqRunID = os.path.basename(os.path.normpath(cwdPath))
 #print(MiSeqRunID)  #works
     
 #save final1 file as csv (easier to open in Excel than tsv) 
-#(this has ALL columns of ALL files, used for testing mostly):
-df_ncov_variant_lineage_artic_merge.to_csv(MiSeqRunID + '_' + 'ncov_variantsum_lineage_artic_merge_leftJoin.csv')
+#(this has ALL columns of ALL files, used for testing mostly - not needed):
+#df_ncov_variant_lineage_artic_merge.to_csv(MiSeqRunID + '_' + 'ncov_variantsum_lineage_artic_merge_leftJoin.csv')
 
 
 #BREAK APART MERGED FILE TO JUST KEEP COLUMNS I WANT:
