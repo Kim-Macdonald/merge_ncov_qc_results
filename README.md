@@ -35,3 +35,10 @@ cd to directory with result files
     
     conda deactivate
 
+
+<b>Assumed Directory Structure:</b>
+
+![Github_AssumedDirectoryStructure_paint2](https://user-images.githubusercontent.com/72042148/109408269-a1886000-793c-11eb-9f22-b481ceb6dea6.png)
+
+
+
