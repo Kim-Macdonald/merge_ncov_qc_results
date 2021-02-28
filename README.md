@@ -16,7 +16,7 @@ Merges (left Join) the result fields from artic &amp; ncov-tools qc summaries, p
 
 cd to directory with result files 
 
-      (for BCCDC: cd projects/covid-19_production/analysis_by_run/[MiSeqRunID] )
+      (for BC: cd path/to/AnalysisDirectory/[MiSeqRunID] )
 
       conda activate pandas
 
@@ -27,7 +27,7 @@ cd to directory with result files
 
     conda activate pandas
 
-    (For BC:) cd projects/covid-19_production/analysis_by_run/
+    (For BC:) cd path/to/AnalysisDirectory/
 
-    for dir in /projects/covid-19_production/analysis_by_run/*/; do cd $dir; python3 /path/to/script/mergeQCresults.py; cd ..; done
+    for dir in /path/to/AnalysisDirectory/*/; do cd $dir; python3 /path/to/script/mergeQCresults.py; cd ..; done
 
