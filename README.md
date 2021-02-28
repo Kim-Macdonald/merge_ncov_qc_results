@@ -21,6 +21,8 @@ cd to directory with result files
       conda activate pandas
 
       python3 path/to/script/mergeQCresults.py
+      
+      conda deactivate
 
 
 <b>To run/loop through all MiSeqRunID directories:</b>
@@ -30,4 +32,6 @@ cd to directory with result files
     (For BC:) cd path/to/AnalysisDirectory/
 
     for dir in /path/to/AnalysisDirectory/*/; do cd $dir; python3 /path/to/script/mergeQCresults.py; cd ..; done
+    
+    conda deactivate
 
